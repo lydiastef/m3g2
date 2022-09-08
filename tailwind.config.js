@@ -7,16 +7,18 @@ module.exports = {
       md: "768px",
       lg: "976px",
       xl: "1440px"
-    }
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'creme': '#FEFAE0',
+      'lightgreen': '#98AB5C',
+      'darkgreen': '#283618',
+      'lightorange': '#DDA15E',
+      'darkorange': '#BC6C25'
+    },
     extend: {
-      colors: {
-        dark-red: #780000,
-        red: #c1121f,
-        creme: #fdf0d5,
-        dark: #003049,
-        light-blue: #669bbc
-
-      }
+      
     },
   },
   plugins: [],
