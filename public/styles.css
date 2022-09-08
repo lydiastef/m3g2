@@ -561,12 +561,45 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .ml-0 {
   margin-left: 0px;
 }
 
 .mr-5 {
   margin-right: 1.25rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -577,8 +610,44 @@ video {
   width: 8rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
 .basis-3\/4 {
   flex-basis: 75%;
+}
+
+.basis-1 {
+  flex-basis: 0.25rem;
+}
+
+.basis-2 {
+  flex-basis: 0.5rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -589,6 +658,22 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-darkgreen {
@@ -622,6 +707,14 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-32 {
@@ -666,6 +759,18 @@ video {
   padding-top: 1rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -684,6 +789,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -732,6 +842,17 @@ video {
 .hover\:text-darkorange:hover {
   --tw-text-opacity: 1;
   color: rgb(188 108 37 / var(--tw-text-opacity));
+}
+
+@media (min-width: 480px) {
+  .sm\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 768px) {
